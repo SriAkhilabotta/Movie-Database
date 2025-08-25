@@ -404,7 +404,8 @@ INSERT INTO movies (id, title, language, genre, release_year, duration_minutes, 
 (390, 'Bodyguard', 'Hindi', 'Action, Comedy, Romance', 2011, 130, 5.4, 30000),
 (391, 'Ready', 'Hindi', 'Action, Comedy, Romance', 2011, 135, 5.0, 25000),
 (392, 'Agneepath', 'Hindi', 'Action, Drama', 2012, 174, 6.9, 40000),
-(393, 'Ek Tha Tiger', 'Hindi', 'Action, Thriller', 2012, 133, 6.2, 55000);
+(393, 'Ek Tha Tiger', 'Hindi', 'Action, Thriller', 2012, 133, 6.2, 55000),
+(394.'yeh jawaani hai diwaani','drama',2015,122,9.0,90000);
 SELECT * FROM movies where language='hindi';
 SELECT * FROM movies WHERE title = 'Ae Dil Hai Mushkil';
 
